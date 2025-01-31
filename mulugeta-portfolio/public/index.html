@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="pro.css">
+    <script src="https://kit.fontawesome.com/697c37e741.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header part-->
+    <header id="header">
+        <div class="profile-container">
+            <img src="images/pp.jpg" alt="Profile Photo" class="profile-photo">
+            </div>
+        <div class="container">
+            <nav>
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            </div>
+   </header>
+   <!----------------Home Section Part----------------------->
+   <section id="home" class="section">
+   <div class="header-text">
+        <p>Fullstack Web Developer</p>
+        <h1>Hi,I'm <span>Mulugeta Abeje</span></h1>
+   </div>
+   </section>
+<!-------------------About Me section part------------------->
+   <section id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/mm.jpg" alt="photo">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! I’m Mulugeta, a passionate Software Engineering student at ASTU with a focus on full-stack web development.
+                     I enjoy creating dynamic and efficient web applications that offer a seamless user experience. 
+                     In addition to excelling academically, I actively participate in volunteerism, contributing to projects and initiatives that make a positive impact.
+                      My journey in tech continues to fuel my curiosity and drive for continuous learning.</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                      </div>
+                      <!-------Skills-------->
+                      <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+
+                        </ul>
+                      </div>
+                     <!--------Experience--------->
+                      <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>Web Development Training at Different Site</li>
+                            <li><span>2022 - 2023</span><br>Coming My Skill More Powerfull</li>
+                            <li><span>2024 - current</span><br>Work on UpWork Platform</li>
+
+                        </ul>
+                      </div>
+                    <!--------Education--------->
+                      <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Secondary School from Woreta, Gondar</li>
+                            <li><span>2021</span><br>DPD from Woreta, Gondar</li>
+                            <li><span>2022</span><br>Software Engineering Training at ASTU Institute</li>
+
+                        </ul>
+                      </div>
+            </div>
+        </div>
+    </div>
+    </section>
+<!----------------Skills Section Part----------------------->
+    <section id="Skills" class="section">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Disign</h2>
+                    <p>Developing responsive and dynamic websites using HTML, CSS,
+                    JavaScript, and frameworks like React and Node.js, ensuring cross-browser compatibility.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Full-Stack</h2>
+                    <p>Expertise in both front-end and back-end technologies, 
+                        including databases, APIs, and server-side logic to deliver complete web applications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design </h2>
+                    <p>Designing intuitive and visually appealing interfaces for web and mobile applications, 
+                        focusing on user experience and functionality.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!----------------------Projects Section Part----------------------->
+    <section id="projects" class="section">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/ccccc.jpg" alt="calcu">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>This is the functional calculator that will make any arithmetic operations</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img id="net" src="images/netf.jpg" alt="netflix">
+                    <div class="layer">
+                        <h3>Netflix</h3>
+                        <p>Netflix is a global streaming service that offers a wide range of entertainment content,
+                            including movies, TV shows, documentaries, and original programming.
+                            Users can access Netflix content on various devices,
+                            such as smartphones, tablets, smart TVs, and computers,
+                            by subscribing to the service.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!----------------------Contacts Section Part-------------------------->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mulugetaabeje16@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0939268336</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/mulerviva.abeje"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mulugeta-abeje-ab8a57309/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://web.telegram.org/k/"><i class="fa-brands fa-telegram"></i></a>
+
+                    </div>
+                    <a href="" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="form">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Write Your message here..."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="copyright">
+        <p>© 2024 My Portfolio. All rights reserved.</p>
+
+    </footer>
+
+    <script src="pro.js"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDPdkDfQtEgKri43I7S0m2bQkYEjSIU3lg",
+    authDomain: "mulugeta-portfolio.firebaseapp.com",
+    projectId: "mulugeta-portfolio",
+    storageBucket: "mulugeta-portfolio.firebasestorage.app",
+    messagingSenderId: "1036112314941",
+    appId: "1:1036112314941:web:231238865a2362b3a52054",
+    measurementId: "G-HSPD4JBH82"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+</html>
