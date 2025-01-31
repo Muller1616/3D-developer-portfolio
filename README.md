@@ -1,7 +1,7 @@
 Hey there! Welcome to my personal portfolio. This is where I showcase the skills and projects I’ve been working on as a web developer. Feel free to explore, learn more about my background, and check out the projects I’ve built.
 <br> <br>
 
-<h1>About This Portfolio</h1>
+<h1>About  Portfolio</h1>
 This portfolio is a reflection of my journey as a software engineer. I wanted to create a space that not only highlights my skills but also gives you a glimpse of who I am as a developer. The goal was to make it interactive, visually appealing, and mobile-friendly—so it’s easy to navigate on any device.
 
 <br><br>
