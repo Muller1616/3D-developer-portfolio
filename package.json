@@ -13,3 +13,10 @@
     "three": "^0.172.0"
   }
 }
+{
+  "build": {
+    "command": "npm run build",
+    "outputDirectory": "dist"
+  }
+}
+
